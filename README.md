@@ -26,4 +26,4 @@ Two gene targets and 2 reporter genes for phenotypic characterization
 5. Calculated linear Threshold Overlap Score to identify regions of interest.
 6. Calculated integrated density for the target as a measurement of signal intensity
 
-![image](images/Fig4.tif)
+![](images/Fig4.tif)
