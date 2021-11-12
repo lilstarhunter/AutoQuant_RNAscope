@@ -8,7 +8,8 @@ Two gene targets and 2 reporter genes for phenotypic characterization
 
 4 animals per group. 4 sections were isolated from each animal at the level of the nucleus accumbens in order to capture a snapshot throughout the entire nucleus accumbens. Total of 32 sections each with 3 separate images for the respective fluorescent channels (DAPI = Channel1, Target = Channel 2, Reporter = Channel 3) for a total of 64 images requiring analysis. 
 
-**Workflow**
+# Workflow
+![](Images/workflow.png)
 
 1. Rename files and update folder structure for more organized batch processing
 2. Preprocess Images
@@ -23,7 +24,7 @@ Two gene targets and 2 reporter genes for phenotypic characterization
     - isoDATA algorithmic thereholding to exclude partial or dying cells
     - Otus thresholding applied to reporter and target.
 4. Identify and analyze only cells (regions of interest) with BOTH target and reporter
-5. Calculated linear Threshold Overlap Score to identify regions of interest.
+5. Calculated linear Threshold Overlap Score using EZColocalization PlugIn to identify regions of interest.
 6. Calculated integrated density for the target as a measurement of signal intensity
 
 ![](Images/Fig4.png)
